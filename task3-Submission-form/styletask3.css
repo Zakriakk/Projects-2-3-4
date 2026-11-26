@@ -1,0 +1,74 @@
+main{       
+            position: relative;
+            font-family: Arial;
+            background-color: brown;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0px 100px 0px 100px ;
+
+
+            clip-path:polygon(0 0,100% 0,100% 90%,90% 100%,0 100%);
+        
+        }
+        .leftside{
+            position: relative;
+            padding-top: 190px;
+        }
+        .box1{
+            position: absolute;
+        }
+            
+        
+                   /* All ssitting of the rightside biodata is here. */
+        .biodata{
+            display: grid;
+            row-gap: 0px;
+        }
+        .biodata input{
+            background-color: transparent;
+           
+            border: 2px solid white;
+            color: white;
+            height: 40px;
+            width: 90%;
+        }
+        .biodata input::placeholder {
+            color: white;
+         }
+
+
+               /* All ssitting of the biodata on rightbottom. */
+
+        .rightbottom input{
+            background-color: transparent;
+            height: 16px;
+            width: 16px;
+
+        }
+
+        
+        .rightbottom textarea{
+           border: 2px solid white;
+           width: 40%;
+           height: 70px;
+           padding-bottom: 20px;
+           margin-bottom: 10px;
+
+         }
+        .rightbottom textarea::placeholder {
+            color: white;
+            font-size:large;
+            padding: 5px 10px 0px 10px ;
+         }
+        .Submit{
+            margin-top: 30px;
+            padding:0px;
+            border: 2px solid white;
+            color: rgb(113, 10, 10);
+            width: 80%;
+            height: 70px;
+            font-size:x-large;
+            cursor: pointer;
+            margin-bottom: 70px;
+        }
+
